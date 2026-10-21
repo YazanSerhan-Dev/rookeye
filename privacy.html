@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RookEye Privacy Policy</title>
+  <meta name="description" content="How RookEye handles your data: chess analysis runs on your computer, with no accounts, analytics, ads or tracking." />
+  <link rel="icon" href="logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="logo.svg" alt="" />RookEye</a>
+      <nav>
+        <a href="./#features">Features</a>
+        <a href="./#pricing">Pricing</a>
+        <a href="./#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="doc">
+    <h1>Privacy policy</h1>
+    <p class="muted">Last updated: 21 October 2026</p>
+    <p>RookEye analyses chess on your own computer. It has no accounts, no analytics, no ads and no tracking, and it doesn't sell or share your data.</p>
+
+    <h2>What stays on your computer</h2>
+    <ul>
+      <li><strong>The screen of the tab you start it on.</strong> When you press Start, the extension captures that tab to find and read the chess board. The images are processed on your computer as they arrive and are never saved or sent anywhere.</li>
+      <li><strong>The chess engine.</strong> Stockfish runs inside the extension; positions are never sent to a server for analysis.</li>
+      <li><strong>What it remembers,</strong> in your browser's extension storage:
+        <ul>
+          <li>the piece sets it has learned (small number patterns, not images);</li>
+          <li>your engine strength and analysis depth settings;</li>
+          <li>the last few games you opened in Game Review;</li>
+          <li>the games it recorded (their moves, and the page or video and moment they came from), the last 30;</li>
+          <li>the chess.com or lichess username you type into "My games";</li>
+          <li>your library: the games you reviewed, their engine analysis, the puzzles made from their mistakes and how you did on each puzzle, your opening repertoire and how your drills went (in the extension's own database);</li>
+          <li>your licence key, its status, and the email address it belongs to (as Lemon Squeezy reports it back), to know your subscription or trial.</li>
+        </ul>
+        Removing the extension deletes all of it.</li>
+    </ul>
+
+    <h2>What it fetches from the internet</h2>
+    <p>Only when you use the feature that needs it:</p>
+    <ul>
+      <li><strong>"My games" and "Add your games" in Training:</strong> your recent games from the public chess.com API (<code>api.chess.com</code>) or the lichess API (<code>lichess.org</code>), using the username you typed. Those services see the request like any visit to their site.</li>
+      <li><strong>Game Review of a chess.com game:</strong> chess.com's own accuracy for that game, if it has one, from the players' public game archives on the chess.com API.</li>
+      <li><strong>Game Review of a lichess game page:</strong> the game's PGN from lichess's own export, from the page you're on.</li>
+      <li><strong>Player pictures:</strong> for chess.com games, the players' public profile pictures from chess.com's API and image servers.</li>
+      <li><strong>Your licence (Lemon Squeezy):</strong> when you paste your licence key, and then about twice a day, the extension sends the key and a name for this browser ("RookEye on Chrome") to Lemon Squeezy's licence service (<code>api.lemonsqueezy.com</code>), which answers whether it's active.</li>
+    </ul>
+    <p>Nothing else is sent, and nothing is sent to us.</p>
+
+    <h2>Payments</h2>
+    <p>RookEye is sold through Lemon Squeezy, which is the merchant of record: the free trial sign-up, checkout, payment, receipts and cancelling all happen on Lemon Squeezy's pages, under <a href="https://www.lemonsqueezy.com/privacy">Lemon Squeezy's privacy policy</a>. The extension never sees your card or payment details. The free trial asks only for an email address, on Lemon Squeezy's page.</p>
+
+    <h2>Why it asks for these permissions</h2>
+    <ul>
+      <li><strong>Tab capture:</strong> to read the board from the tab you start it on.</li>
+      <li><strong>Offscreen document:</strong> to run the chess engine in the background.</li>
+      <li><strong>Storage and unlimited storage:</strong> to remember the things listed above on your computer, including your licence. Your library of games and puzzles can grow past the browser's default limit for extensions.</li>
+      <li><strong>Scripting and active tab:</strong> to start on a tab that was already open before the extension was installed.</li>
+      <li><strong>Access to all sites:</strong> chess appears on many sites (and in videos). The extension reads a page only when you press Start or Game Review on it.</li>
+    </ul>
+
+    <h2>Fair play</h2>
+    <p>During a game against a person on chess.com or lichess, and during rated puzzles, the extension gives no hints. It only records the game so you can review it when it ends.</p>
+
+    <h2>Contact</h2>
+    <p>Questions: <a href="mailto:rookeye.support@gmail.com">rookeye.support@gmail.com</a></p>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <a class="brand" href="./"><img src="logo.svg" alt="" />RookEye</a>
+      <nav>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="mailto:rookeye.support@gmail.com">rookeye.support@gmail.com</a>
+      </nav>
+      <p class="disclaimer">© 2026 RookEye. Not affiliated with chess.com, lichess, YouTube or Twitch.</p>
+    </div>
+  </footer>
+</body>
+</html>
